@@ -57,13 +57,15 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 2fr;
   text-align: center;
   padding: 1em;
   background-color: var(--headline-color-on-white);
   border-radius: 25px 25px 25px 25px;
 }
-
+#profile-pic {
+  align-self: center;
+}
 #name{
   grid-column: 2/3;
   color: #E5E5E5;
