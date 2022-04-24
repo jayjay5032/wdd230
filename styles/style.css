@@ -31,30 +31,49 @@ html {
   background-color: var(--primary-color);
 }
 body {
-  max-width: 940px;
+  max-width: 700px;
   margin: 0 auto;
   padding: 1em;
 }
+
 main {
   max-width: 940px;
-  margin: 0 auto;
+  margin: auto;
   background-color: white;
+  border-radius: 25px 25px 0px 0px;
 }
+
 img {
   max-width: 100%;
 }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
+  padding: 1em;
+  background-color: #FCA311;
+  border-radius: 25px 25px 25px 25px;
 }
+
 header {
   display: grid;
   grid-template-columns: 1fr 4fr;
   text-align: center;
   padding: 1em;
+  background-color: var(--headline-color-on-white);
+  border-radius: 25px 25px 25px 25px;
 }
+
+#name{
+  grid-column: 2/3;
+  color: #E5E5E5;
+  align-self: center;
+  font-size: 3em;
+}
+
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
+  
 }
 
 p, label, button {
@@ -63,262 +82,20 @@ p, label, button {
   padding: 0.4em;
   font-size: 1em;
 }
-nav {
-  font-family: var(--heading-font);
-  background-color: var(--nav-background-color);
-  line-height: 1em;
-  text-align: left;
-  font-size: 1.5em;
-  align-self: center;
-  grid-column: 2/3;
+nav{
+  font-family: var(--paragraph-font);
+  padding: 1em;
+  font-size: 1em;
 }
 
-ul {
-  list-style-type: none;
-  display: inline-flex;
-  padding-inline-start: 10px;
+#title{
+  border-bottom: 3px solid #14213D;
 }
-a {
-  cursor: pointer;
-}
-ul a {
-  padding: 1em;
-}
-ul a:link,
-ul a:visited {
-  color: var(--nav-link-color);
-  text-decoration: none;
-}
-ul a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
-  border-radius: 25px 25px 25px 25px; 
-}
-.purpose{
-  padding: 3em;
-  text-align: center;
-}
-.logo-box {
-        background-color: black;
-        border-radius: 25px 25px 25px 25px;   
-        padding: 0.45em;
-        grid-column: 1/2;
-    }
-.banner-box {
-    display: grid;
-    grid-template-columns: 5fr 4fr;
-}
-    
-.banner-box img {
-    grid-column: 1 / -1; /* the -1 is just a fancy way to say "span all the columns" */
-    grid-row: 1;
-}
-    
-.action {
-    grid-column: 1/2;
-    grid-row: 1;
-    background-color: rgba(240, 240, 240, 0.9);
-    margin: 6em 2em;
-    padding: 1em;
-    text-align: center;
-}
-    
-.action button,.action button:hover {
-    cursor: pointer;
-    color: white;
-    line-height: 2em;
-    width: 10em;
-    background-color: #14213D;
-    font-size: 1.2em;
-    border-radius: 25px 25px 25px 25px;
-}
-#light-background{
-  background-color: #E5E5E5;
-  color: #14213D;
-}
-.home-our-advantages, .home-how-we-work{
-  text-align: center;
-  justify-items: center;
-  margin: 1em;
-  padding: 1em;
-}
-.home-our-advantages{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto auto;
-  grid-gap: 10px;
-  
-}
-.home-our-advantages-headline-1, .home-how-we-work-headline-1{
-  grid-column: 1/-1;
-}
-.home-how-we-work{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto auto;
-  grid-gap: 10px;
-}
+
 footer {
-  margin: 1em;
-  display: grid;
-  grid-template-columns: 1fr 0.4fr;
-  grid-template-rows: 1fr;
-  width: 100%;
-}
-.social{
-  grid-column: 2/3;
-  grid-row: 1/2;
   text-align: center;
-  display: inline-flex;
-}
-footer p {
-  text-align: left;
-  grid-column: 1/2;
-  grid-row: 1/2;
-}
-
-
-.contact-us-main{
-  display: grid;
-  grid-template-columns: 1fr 0.5fr;
-  grid-template-rows: 0.3fr 1fr;
   padding: 1em;
-}
-.contact-us, .find-a-mechanic {
-  padding: 1em;
-}
-.find-a-mechanic{
-  display: grid;
-  grid-template-rows: 0.2fr 1fr;
-}
-.contact-info {
-  grid-column: 2/3;
-  grid-row: 2/3;
-  display: grid;
-  grid-template-columns: 0.1fr 1fr;
-  grid-template-rows: 0.7fr 0.3fr 1fr;
-  background-color: #E5E5E5;
-  border-radius: 0px 20px 20px 0px;
-  border:1px solid;
-  border-color: gray;
-  padding: 1em;
-}
-#contact-info-title{
-  grid-column: 1/-1;
-  grid-row: 1/2;
-}
-#contact-info-email, #contact-info-phone{
-  padding:0;
-  margin:0 1em;
-}
-
-/* ///// inputs /////*/
-.styled-input label {
-    color: white;
-    padding: 1em;
-    position: absolute;
-    top: 10px;
-    left: 0;
-    -webkit-transition: all 0.25s ease;
-    transition: all 0.25s ease;
-    pointer-events: none;
-}
-
-input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid ~ label {
-    font-size: 0.75em;
-    color: white;
-    top: 5px;
-    -webkit-transition: all 0.225s ease;
-    transition: all 0.225s ease;
-}
-
-.styled-input {
-    float: left;
-    width: 40%;
-    margin: 1rem 0;
-    position: relative;
-    border-radius: 4px;
-}
-
-@media only screen and (max-width: 921px){
-    .styled-input {
-        width:100%;
-    }
-}
-
-textarea {
-    width: 100%;
-    min-height: 15em;
-}
-input,
-textarea {
-    padding: 30px;
-    border: 0;
-    width: 100%;
-    background-color: #14213D;
-    color: white;
-    border-radius: 10px;
-}
-.wide { 
-    width: 100%;
-}
-
-input:focus,
-textarea:focus { outline: 0; }
-
-input:focus ~ span,
-textarea:focus ~ span {
-    width: 100%;
-    -webkit-transition: all 0.075s ease;
-    transition: all 0.075s ease;
-}
-.container{
-  grid-column: 1/2;
-  grid-row: 2/3;
-  padding: 1em 5em 1em 1em;
-  background-color: #E5E5E5;
-  border-radius: 20px 0px 0px 20px;
-  border: 1px solid;
-  border-color: gray;
-}
-.round-corners{
-  border-radius: 20px 20px 20px 20px;
-}
-.submit-btn {
-    float: right;
-    padding: 7px 35px;
-    border-radius: 60px;
-    display: inline-block;
-    background-color: black;
-    color: white;
-    font-size: 1em;
-    cursor: pointer;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.06),
-              0 2px 10px 0 rgba(0,0,0,0.07);
-    -webkit-transition: all 300ms ease;
-    transition: all 300ms ease;
-}
-
-.submit-btn:hover {
-    transform: translateY(1px);
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,0.10),
-              0 1px 1px 0 rgba(0,0,0,0.09);
-}
-
-@media (max-width: 920px) {
-    .submit-btn {
-        width:100%;
-        float: none;
-        text-align:center;
-    }
-}
-
-input[type=checkbox] + label {
-  color: #cccccc;
-  font-style: italic;
-} 
-
-input[type=checkbox]:checked + label {
-  color: #00ffff;
-  font-style: normal;
+  background-color: var(--headline-color-on-white);
+  color: #E5E5E5;
+  border-radius: 0px 0px 25px 25px;
 }
