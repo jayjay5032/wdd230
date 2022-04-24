@@ -1,2 +1,2 @@
-let LastModif = new Date(document.lastModified);
-document.getElementById("currentdate").textContent = LastModif;
+let LastModif = document.lastModified;
+document.getElementById("currentdate").innerHTML = LastModif;
