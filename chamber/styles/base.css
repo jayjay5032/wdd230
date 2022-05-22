@@ -151,7 +151,7 @@ nav ul {
 nav ul li a {
 	display: block;
 	color: var(--headline-color-on-color);
-  padding: .8rem .2vw;
+  padding: 1rem;
 	text-align: center;
   text-decoration: none;
 }
@@ -166,7 +166,7 @@ nav button {
 }
 
 nav ul li a:hover {
-  background-color: var(--primary-color);
+  background-color: var(--nav-hover-link-color);
   color: black;
 }
 
@@ -212,4 +212,16 @@ footer > div {
 
 #footer_title {
   font-size: larger;
+}
+
+#banner{
+  display: block;
+  text-align: center;
+  background-color: var(--accent1-color);
+  color: white;
+  font-size: large;
+  margin: 1em 0;
+}
+.close {
+  display: none;
 }
