@@ -215,13 +215,15 @@ footer > div {
 }
 
 #banner{
-  display: block;
+  display: none;
   text-align: center;
   background-color: var(--accent1-color);
   color: white;
   font-size: large;
   margin: 1em 0;
 }
-.close {
-  display: none;
+
+picture.hero_pic {
+  display: block;
+  width: auto;
 }

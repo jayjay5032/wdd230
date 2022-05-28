@@ -13,9 +13,11 @@
         <link rel="shortcut icon" href="images/favicon.ico">
     </head>
     <body id="content">
-        <div id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m</div>
+        <div id="banner">
+            <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m</p>
+        </div>
         <header>
-            <img src="images/provo_logo.png" alt="provo_logo"> 
+            <img src="images/provo_logo.webp" alt="provo_logo"> 
             <h1 id="page_title">Provo</h1>
             <p id="page_title">Chamber of Commerce</p>
             <div id="social">
@@ -38,6 +40,13 @@
         <main>
             <div>
                 <h2>Hero with site name and call to action</h2>
+                <picture class="hero_pic">
+                    <source media="(max-width: 400px)" srcset="images/wdd230-org400.jpg">
+                    <source media="(max-width: 600px)" srcset="images/wdd230-org600.jpg">
+                    <source media="(max-width: 800px)" srcset="images/wdd230-org800.jpg">
+                    <img src="images/wdd230-org1100.jpg" alt="hero_pic">
+                </picture>
+                
                 <p>The goal of Provo Chamber of Commerce is to help to further the interests of small businesses in a local area. The activities can range from hosting events, to lobbying local representatives to charitable works for the betterment of the community. As a small business owner it is imperative that you network. The Chamber of Commerce gives you the opportunity to meet with other local business owners and network. Of course they also present business owners in a positive light to the community. </p>
             </div>
             <div>
@@ -46,7 +55,10 @@
             </div> 
             <div>
                 <h2>Weather</h2>
-                <p>The goal of Provo Chamber of Commerce is to help to further the interests of small businesses in a local area. The activities can range from hosting events, to lobbying local representatives to charitable works for the betterment of the community. As a small business owner it is imperative that you network. The Chamber of Commerce gives you the opportunity to meet with other local business owners and network. Of course they also present business owners in a positive light to the community. </p>
+                <span id="temp"></span>
+                <span id="wind"></span>
+                <p id="wind_chill"></p>
+
             </div> 
             <div>
                 <h2>News Release</h2>
@@ -66,7 +78,7 @@
             </div>      
         </main>
         <footer>
-            <img src="images/provo_logo.png" alt="provo_logo"> 
+            <img src="images/provo_logo.webp" alt="provo_logo"> 
             <div>
                 <p id="footer_title">Provo Chamber of Commerce</p>
                 <p>2696 N University Ave Suite 220, Provo, UT 84604</p>
@@ -85,7 +97,7 @@
         </footer>
         <script src="scripts/currentdate.js"></script>
         <script src="scripts/toggleMenu.js"></script>
-        <script src="scripts/topbanner.js"></script>
+        <script src="scripts/windchill.js"></script>
 
     </body>
 </html>

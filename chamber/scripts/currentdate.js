@@ -31,10 +31,6 @@ const year = d.getFullYear();
 const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 // using getElementById
 document.getElementById("currentdate").textContent = fulldate;
-try {
-  const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
-  date2.textContent = new Date().toLocaleDateString('en-UK', options);
-} catch (e) {
-  alert('Error with code or your browser does not support Locale');
+if (d.getDay() == 1){
+	document.getElementById("banner").style.display = "block";
 }
- 
