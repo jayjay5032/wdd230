@@ -1,11 +1,14 @@
 @media only screen and (min-width: 60rem) {
     header{
-        grid-template-columns: 60px auto auto 99px;
+        grid-template-columns: 60px 200px auto 99px;
+        
     }
     
     nav{
         grid-column: 3/4;
+        grid-row: 1/2;
         background-color: transparent;
+        position: absolute;
     }
 
     #social{
@@ -18,10 +21,20 @@
         display: inline-flex;
         background-color: transparent;
     }
-
+    nav ul{
+        grid-column: 3/4;
+        grid-row: 1/2;
+        right: 200px;
+        position: absolute;
+    }
     nav ul li{
         border: none;
-        padding: 0 1rem;
+        padding: 0;
+    }
+
+    nav ul li a {
+        background-color: transparent;
+        margin: 0;
         
     }
 
