@@ -8,7 +8,7 @@
         grid-column: 3/4;
         grid-row: 1/2;
         background-color: transparent;
-        position: absolute;
+
     }
 
     #social{
@@ -20,12 +20,15 @@
     nav ul#primaryNav {
         display: inline-flex;
         background-color: transparent;
+        right: 20%;
+        z-index: 0;
     }
     nav ul{
         grid-column: 3/4;
         grid-row: 1/2;
         right: 200px;
-        position: absolute;
+
+        right: 200px;
     }
     nav ul li{
         border: none;
