@@ -239,3 +239,65 @@ picture.hero_pic {
   display: block;
   width: auto;
 }
+
+
+/*---------FORM---------*/
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #08A8E0;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+form legend {
+  color:#08A8E0;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  font-size: 1.2rem;
+}
+form label.top, form div {
+  display: block;
+  padding-top: 1rem;
+  color: black;
+  font-size: 1rem;
+}
+form label.top input, form label.top textarea {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #999;
+  border-radius: 4px;
+  padding: .75rem;
+  color: black;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.13);
+
+}
+form label.top textarea{
+  padding: 1.5rem .75rem;
+}
+form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: black;
+}
+form input.submitBtn {
+  border: none;
+  background-color: #3DBF33;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  width: 96%;
+  max-width: 20rem;    
+}
+form label.top input:required {
+  border: red solid 1px;
+}
+form label.top input:required:valid {
+  border: green solid 1px;
+}
+form p{
+  display: none;
+}

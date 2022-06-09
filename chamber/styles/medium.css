@@ -35,7 +35,7 @@
         display: block;
     }
     .discover div img:hover{box-shadow: 0 0 50px #333;}
-    .discover {
+    .discover, .join{
         grid-template-columns: .1fr 1fr .1fr;
     }
 }
