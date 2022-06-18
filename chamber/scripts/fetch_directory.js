@@ -1,4 +1,4 @@
-const requestURL = 'scripts/data.JSON';
+const requestURL = 'chamber/scripts/data.json';
 const grid = document.querySelector('.grid');
 
 function displaybusniess(busniess) {
