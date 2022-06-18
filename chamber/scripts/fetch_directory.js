@@ -1,4 +1,4 @@
-const requestURL = 'chamber/scripts/data.json';
+const requestURL = 'https://github.com/jayjay5032/wdd230/blob/fedcd62210669048155ae7de20d9a0c3a95d7f94/chamber/scripts/data.json';
 const grid = document.querySelector('.grid');
 
 function displaybusniess(busniess) {
