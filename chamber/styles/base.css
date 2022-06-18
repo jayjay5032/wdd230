@@ -140,9 +140,9 @@ p {
 .large_only, .mid_only{display: none;}
 
 nav{
-  position: absolute;
+  /*position: absolute;
   right: 32px;
-  z-index: 1;
+  z-index: 1;*/
   width: 40px;
   height: 40px;
   font-family: var(--heading-font);
@@ -300,4 +300,86 @@ form label.top input:required:valid {
 }
 form p{
   display: none;
+}
+
+/*---------directory---------*/
+.menu {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+.menu button {
+	padding: 1rem;
+  background-color: var(--secondary-color);
+}
+
+article,
+section {
+	margin: 0.75rem;
+}
+
+section {
+	border: 1px solid black;
+	padding: 0.5rem;
+	background-color: var(--primary-color);
+  height: 15rem;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	align-items: center;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: flex;
+	align-items: center;
+  height: inherit;
+}
+
+.grid section {
+	flex-direction: column;
+	text-align: center;
+}
+
+.grid section > * {
+	margin: 0.1rem;
+  padding: .2rem;
+}
+
+.list section {
+	flex-direction: row;
+	justify-content: left;
+}
+
+.list section > * {
+	margin: 0 1rem;
+  flex: 1;
+}
+
+
+.list section img {
+	display: none;
+}
+
+section h3, p, a {
+  padding: 0;
+  margin: 0rem;
+}
+
+main div article section img {
+	height: 75px;
+	max-width: 100%; /* Images are jerks - Seattle*/
+}
+
+@media screen and (min-width: 1150px){
+  .list section img {
+		display: block;
+    max-width: 100%;
+	}
 }

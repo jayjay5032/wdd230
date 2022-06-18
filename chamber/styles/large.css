@@ -20,14 +20,13 @@
     nav ul#primaryNav {
         display: inline-flex;
         background-color: transparent;
-        right: 20%;
+        position: inherit;
+        right: auto;
         z-index: 0;
     }
     nav ul{
         grid-column: 3/4;
         grid-row: 1/2;
-        right: 200px;
-
         right: 200px;
     }
     nav ul li{
