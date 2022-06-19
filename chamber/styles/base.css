@@ -322,7 +322,7 @@ section {
 	border: 1px solid black;
 	padding: 0.5rem;
 	background-color: var(--primary-color);
-  height: 15rem;
+  height: 20rem;
 }
 
 .grid {
@@ -382,4 +382,11 @@ main div article section img {
 		display: block;
     max-width: 100%;
 	}
+}
+@media screen and (max-width: 719px){
+  section h3, p, a {font-size: .6rem;}
+  .list section > * {
+    margin: 0 .2rem;
+  }
+  section {height: 12rem;
 }
