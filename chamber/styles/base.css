@@ -1,20 +1,12 @@
-/* if you are using any Google fonts change the font names below to your fonts. 
-Any spaces in your font name should be replaced with a +. 
-Fonts are separated by a | */
+
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Kanit:wght@700&display=swap');
 
 :root {
-  /* change the values below to your colors from your palette */
+  /* palette */
   --primary-color: #8FDFF4;
   --secondary-color: #FDB01F;
   --accent1-color: #3DBF33;
   --accent2-color: #08A8E0;
-
-  /* change the values below to your chosen font(s) */
-  --heading-font: "Kanit";
-  --paragraph-font: "Bitter";
-
-  /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #08A8E0;
   --headline-color-on-color: white;
   --paragraph-color-on-white: black;
@@ -24,62 +16,72 @@ Fonts are separated by a | */
   --nav-background-color: #3DBF33;
   --nav-hover-link-color: #FCA311;
   --nav-hover-background-color: #08A8E0;
+
+  /* fonts */
+  --heading-font: "Kanit";
+  --paragraph-font: "Bitter";
 }
 
+/*----------Overall design----------*/
 html {
   background-color: var(--primary-color);
   min-width: 375px;
 }
-
 body {
   max-width: 1500px;
   min-width: 375px;
   margin: 0 auto;
   padding: 1em;
 }
-
 main {
   max-width: 1500px;
   margin: auto;
-  
 }
-
 div{
   background-color: white;
   margin: 1em;
   padding: 1em;
 }
-
 img {
   max-width: 100%;
   filter: blur(0em);
   transition: filter 0.5s;
 }
-
 img[data-src] {
   filter: blur(0.2em);
 }
-
 .container{
     padding: 1em 0;
 }
-
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
   padding: 1em;
   margin: 0;
 }
+p {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color);
+  padding: 1em;
+  font-size: 1rem;
+  margin: 0;
+}
+a {
+  font-family: var(--paragraph-font);
+  color: var(--paragraph-color);
+  padding: 0.4em;
+  font-size: 1em;  
+}
+.large_only, .mid_only{display: none;}
 
+/*----------header----------*/
 header {
   padding: 1em;
   background-color: var(--headline-color-on-white);
   display: grid;
   grid-template-columns: 60px auto 99px 41px;
   grid-template-rows: auto auto auto;
-  
 }
-
 header img {
   grid-column: 1/2;
   grid-row: 1/3;
@@ -87,7 +89,6 @@ header img {
   align-self: center;
   justify-self: center;
 }
-
 #social {
   background-color: transparent;
   padding: 3px;
@@ -95,11 +96,9 @@ header img {
   align-self: center;
   justify-self: center;
 }
-
 #social img {
   max-width: 30px;
 }
-
 #currentdate {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1rem;
@@ -108,20 +107,17 @@ header img {
   grid-column: 1/-1;
   text-align: center;
 }
-
 header > h1, header > p {
   color: var(--headline-color-on-color);
   text-align: left;
   padding: 0;
 }
-
 header > h1 {
   grid-row: 1/2;
   grid-column: 2/3;
   align-self: end;
   padding: 0 10px;
 }
-
 header > p {
   grid-row: 2/3;
   grid-column: 2/3;
@@ -129,27 +125,14 @@ header > p {
   padding: 2px 10px;
 }
 
-p {
-  font-family: var(--paragraph-font);
-  color: var(--paragraph-color);
-  padding: 1em;
-  font-size: 1em;
-  margin: 0;
-}
-
-.large_only, .mid_only{display: none;}
-
+/*----------Navigation----------*/
 nav{
-  /*position: absolute;
-  right: 32px;
-  z-index: 1;*/
   width: 40px;
   height: 40px;
   font-family: var(--heading-font);
   font-size: 1em;
 	background-color: var(--nav-background-color);
 }
-
 nav ul {
 	list-style-type: none;
   padding: 0;
@@ -158,7 +141,6 @@ nav ul {
   right: 63px;
   z-index: 1;
 }
-
 nav ul li a {
 	display: block;
   background-color: #3DBF33;
@@ -167,7 +149,6 @@ nav ul li a {
 	text-align: center;
   text-decoration: none;
 }
-
 nav button {
   background: transparent;
   border: none;
@@ -176,12 +157,10 @@ nav button {
   align-self: center;
   justify-self: center;
 }
-
 nav ul li a:hover {
   background-color: var(--nav-hover-link-color);
   color: black;
 }
-
 nav ul{display: none;}
 nav ul.open {position: relative; display: inline-block;}
 #hamburgerBtn span:nth-child(1) {display: block;}
@@ -189,43 +168,33 @@ nav ul.open {position: relative; display: inline-block;}
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
-a {
-  font-family: var(--paragraph-font);
-  color: var(--paragraph-color);
-  padding: 0.4em;
-  font-size: 1em;  
-}
-
+/*----------footer----------*/
 footer {
   text-align: center;
   background-color: var(--headline-color-on-white);
   color: white;
 }
-
 footer div p {
   padding: 0;
 }
-
 footer > img {
   max-width: 120px;
   padding: 0.3rem;
 }
-
 footer > div {
   background-color: transparent;
   padding: 0.3rem;
   margin: 0;
 }
-
 #white_line {
  border-top: 1px solid white;
  margin: 0 1rem;
 }
-
 #footer_title {
   font-size: larger;
 }
 
+/*----------banner----------*/
 #banner{
   display: none;
   text-align: center;
@@ -235,13 +204,13 @@ footer > div {
   margin: 1em 0;
 }
 
+/*----------Hero in Index---------*/
 picture.hero_pic {
   display: block;
   width: auto;
 }
 
-
-/*---------FORM---------*/
+/*--------------FORM--------------*/
 form fieldset {
   margin: 2rem 0;
   border: 1px solid #08A8E0;
@@ -302,81 +271,66 @@ form p{
   display: none;
 }
 
-/*---------directory---------*/
+/*--------------directory--------------*/
 .menu {
 	border: 1px solid rgba(0, 0, 0, 0.1);
 	text-align: center;
 }
-
 .menu button {
 	padding: 1rem;
   background-color: var(--secondary-color);
 }
-
 article,
 section {
 	margin: 0.75rem;
 }
-
 section {
 	border: 1px solid black;
 	padding: 0.5rem;
 	background-color: var(--primary-color);
   height: 20rem;
 }
-
 .grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 	align-items: center;
 }
-
 .list {
 	display: flex;
 	flex-direction: column;
 }
-
 .list section {
 	display: flex;
 	align-items: center;
   height: inherit;
 }
-
 .grid section {
 	flex-direction: column;
 	text-align: center;
 }
-
 .grid section > * {
 	margin: 0.1rem;
   padding: .2rem;
 }
-
 .list section {
 	flex-direction: row;
 	justify-content: left;
 }
-
 .list section > * {
 	margin: 0 1rem;
   flex: 1;
 }
-
-
 .list section img {
 	display: none;
 }
-
 section h3, p, a {
   padding: 0;
   margin: 0rem;
 }
-
 main div article section img {
 	height: 75px;
-	max-width: 100%; /* Images are jerks - Seattle*/
+	max-width: 100%;
 }
-
 @media screen and (min-width: 1150px){
   .list section img {
 		display: block;
@@ -384,14 +338,14 @@ main div article section img {
 	}
 }
 @media screen and (max-width: 719px){
-  section h3, p, a {font-size: .6rem;}
+  section h3, section p, section a {font-size: .6rem;}
   .list section > * {
     margin: 0 .2rem;
   }
   section {height: 12rem;}
 }
 
-/*----Weather in Index----*/
+/*---------Weather in Index---------*/
 #weather {
   background-color: #14213D;
   color: white;
