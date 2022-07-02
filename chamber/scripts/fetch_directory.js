@@ -21,9 +21,9 @@ function displaybusniess(busniess) {
     address.textContent = `${busniess.address}`;
     phone.textContent = `${busniess.phone}`;
     membership.textContent = `Membership Level: ${busniess.membership_level}`;
-    var linkText = document.createTextNode("Details");
+    var linkText = document.createTextNode("Website");
     url.appendChild(linkText);
-    url.title = "Details";
+    url.title = "Website";
     url.href = `${busniess.url}`;
 
     // Add/append the section(card) with the h2 element
