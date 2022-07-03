@@ -306,9 +306,9 @@ form p{
 #grid, #list{
   display: grid;
   margin: 10px;
-  padding: 0.8rem;
-  width: 100px;
-  height: 100px;
+  padding: 0.5rem;
+  width: 50px;
+  height: 50px;
 }
 #grid:active,
 #list:active {
@@ -324,9 +324,9 @@ form p{
 }
 #grid div,
 #list div {
-  border-radius: 5px;
+  border-radius: 4px;
   margin: 0;
-  padding: 1rem;
+  padding: .4rem;
   place-self: center;
 }
 #grid div:first-child {
@@ -358,7 +358,7 @@ form p{
   grid-column: 1;
 }
 #list div {
-  padding: .4rem 1.5rem;
+  padding: .2rem 1rem;
 }
 article, section {
 	margin: 0.75rem;
