@@ -59,4 +59,47 @@
         grid-column: 1/2;
         grid-row: 2/3;
     }
+    .discover div p {
+        padding: 20px 100px;
+    }
+    .contact{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+    }
+    #contact-info {
+        grid-row: 1/2; 
+        grid-column: 1/2;
+        margin: 100px 0;
+        background-color: #8FDFF4;;
+    }
+    #provo-view{
+        grid-row: 1/2; 
+        grid-column: 2/3;
+        margin: 0;
+        padding: 0;
+        align-self: center;
+        padding: 0 2rem 0 0;
+    }
+    #provo-view img {
+        width: 700px;
+        
+    }
+    #contact-info h1, #contact-info p {
+        text-align: center;
+    }
+    #contact-info h1 {
+        margin: 0;
+        font-size: 4rem;
+        border-bottom: 3px solid #08A8E0;
+    }
+    #map {
+        grid-row: 2/3; 
+        grid-column: 1/2;
+    }
+    #general-inquiries{grid-row: 2/3; grid-column: 2/3;}
+    .contact-main form {
+        grid-row: 3/4; 
+        grid-column: 1/-1;
+    }
 }

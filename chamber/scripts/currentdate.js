@@ -1,5 +1,5 @@
 let LastModif = document.lastModified;
-document.getElementById("lastmod").innerHTML = LastModif;
+document.getElementById("lastmod").textContent = LastModif;
 
 const daynames = [
 	"Sunday",
