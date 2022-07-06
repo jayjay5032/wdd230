@@ -49,10 +49,7 @@ function displayMembers(busniess) {
           results[count] = cards.appendChild(card);
           count = count + 1;
           }
-
-      };
-      
-  
+      }; 
 }
 
 fetch(requestURL)

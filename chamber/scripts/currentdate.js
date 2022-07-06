@@ -32,5 +32,5 @@ const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
 // using getElementById
 document.getElementById("currentdate").textContent = fulldate;
 if (d.getDay() == 2 || d.getDay() == 1) {
-	document.getElementById("banner").style.display = "block";
+	document.getElementById("banner").style.display = "grid";
 }
