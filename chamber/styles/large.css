@@ -102,7 +102,7 @@
     }
     footer {
         display: grid;
-        grid-template-columns: 1fr 1fr;    
+        grid-template-columns: 45% 55%;    
     }
     footer:nth-child(1){
         grid-column: 1/2;
