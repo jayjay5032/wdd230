@@ -44,16 +44,17 @@
         </header>
         
         <main>
-            <div>
+            <div id="hero">
                 <h2>Welcome to Provo Chamber</h2>
-                <picture class="hero_pic">
-                    <source media="(max-width: 400px)" srcset="images/wdd230-org400.jpg">
-                    <source media="(max-width: 600px)" srcset="images/wdd230-org600.jpg">
-                    <source media="(max-width: 800px)" srcset="images/wdd230-org800.jpg">
-                    <img src="images/wdd230-org1100.jpg" alt="hero_pic">
+                <picture>
+                    <source media="(max-width: 400px)" srcset="images/provo_explore-utah-valey400.jpg">
+                    <source media="(max-width: 600px)" srcset="images/provo_explore-utah-valey600.jpg">
+                    <source media="(max-width: 800px)" srcset="images/provo_explore-utah-valey800.jpg">
+                    <img src="images/provo_explore-utah-valey.jpg" alt="hero_pic">
                 </picture>
-                
-                <p>The goal of Provo Chamber of Commerce is to help to further the interests of small businesses in a local area. The activities can range from hosting events, to lobbying local representatives to charitable works for the betterment of the community. As a small business owner it is imperative that you network. The Chamber of Commerce gives you the opportunity to meet with other local business owners and network. Of course they also present business owners in a positive light to the community. </p>
+                <a id="herobtna" href="directory.html">
+                    <button id="herobtnb"class="btn">See Our Members</button>
+                </a>
             </div>
             <div>
                 <h2>Event</h2>
@@ -75,15 +76,8 @@
                 <h2>News Release</h2>
                 <p>The goal of Provo Chamber of Commerce is to help to further the interests of small businesses in a local area. The activities can range from hosting events, to lobbying local representatives to charitable works for the betterment of the community. As a small business owner it is imperative that you network. The Chamber of Commerce gives you the opportunity to meet with other local business owners and network. Of course they also present business owners in a positive light to the community. </p>
             </div> 
-            <div>
-                <h2>Spotlight1</h2>
-                <p>The goal of Provo Chamber of Commerce is to help to further the interests of small businesses in a local area. The activities can range from hosting events, to lobbying local representatives to charitable works for the betterment of the community. As a small business owner it is imperative that you network. The Chamber of Commerce gives you the opportunity to meet with other local business owners and network. Of course they also present business owners in a positive light to the community. </p>
-                <h2>Spotlight2</h2>
-                <p>The goal of Provo Chamber of Commerce is to help to further the interests of small businesses in a local area. The activities can range from hosting events, to lobbying local representatives to charitable works for the betterment of the community. As a small business owner it is imperative that you network. The Chamber of Commerce gives you the opportunity to meet with other local business owners and network. Of course they also present business owners in a positive light to the community. </p>     
-                <h2 class="large_only">Spotlight3</h2>
-                <p class="large_only">The goal of Provo Chamber of Commerce is to help to further the interests of small businesses in a local area. The activities can range from hosting events, to lobbying local representatives to charitable works for the betterment of the community. As a small business owner it is imperative that you network. The Chamber of Commerce gives you the opportunity to meet with other local business owners and network. Of course they also present business owners in a positive light to the community. </p>
-            </div>
-            <div class="mid_only">
+            <div class="cards" id="spotlights"></div>
+            <div id="join">
                 <a href="join.html">
                     <button class="btn">Join Us</button>
                 </a>
@@ -98,8 +92,6 @@
             <div>
                 <p id="footer_title">Provo Chamber of Commerce</p>
                 <p>2696 N University Ave Suite 220, Provo, UT 84604</p>
-            </div>
-            <div>
                 <p>provocamberofcommorce.com</p>
                 <p>+1 (123) 456-7890</p>
                 <p><a href="https://goo.gl/maps/3Ag2PanQReeVNFuG9" target="_blank">Location Map</a></p>
@@ -114,5 +106,6 @@
         <script src="scripts/currentdate.js"></script>
         <script src="scripts/toggleMenu.js"></script>
         <script src="scripts/weatherapi.js"></script>
+        <script src="scripts/spotlight.js"></script>
     </body>
 </html>

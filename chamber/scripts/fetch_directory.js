@@ -35,7 +35,19 @@ function displaybusniess(busniess) {
     card.appendChild(url);
 
     // Add/append the existing HTML div with the cards class with the section(card)
-    grid.appendChild(card);
+    if (busniess.membership_level == "Gold") {
+        card.setAttribute("class", "gold");
+        grid.appendChild(card);  
+    } else if (busniess.membership_level == "Silver") {
+        card.setAttribute("class", "silver");
+        grid.appendChild(card);
+    } else if (busniess.membership_level == "Bronze"){
+        card.setAttribute("class", "bronze");
+        grid.appendChild(card);
+    } else {
+        grid.appendChild(card);
+    };
+    
 }
 
 fetch(requestURL)

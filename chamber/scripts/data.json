@@ -29,7 +29,7 @@
         "name": "America's Freedom Festival",
         "address": "4626 North 300 West, Suite 300, Provo, UT 84604",
         "phone": "+1 (801) 818-1776",
-        "membership_level": "Bronze",
+        "membership_level": "Non-Profit",
         "url": "https://www.freedomfestival.org/"
       },
       {
@@ -37,7 +37,7 @@
         "name": "Northwestern Mutual",
         "address": "75 W. Center Street, Provo, UT 84601",
         "phone": "Mulitiple",
-        "membership_level": "Sliver",
+        "membership_level": "Silver",
         "url": "https://www.northwesternmutual.com/"
       },
       {
@@ -45,7 +45,7 @@
         "name": "Nu Skin Enterprises",
         "address": "201 E Center St, Provo, UT 84606",
         "phone": "+1 (801) 345-1000",
-        "membership_level": "Sliver",
+        "membership_level": "Silver",
         "url": "http://www.nuskinenterprises.com"
       },
       {
@@ -53,7 +53,7 @@
         "name": "Bear Bones IT",
         "address": "1855 North 1120 West Provo, UT 84604",
         "phone": "+1 (801) 980-1735",
-        "membership_level": "Sliver",
+        "membership_level": "Silver",
         "url": "https://bearbonesit.com/"
       },
       {
@@ -61,7 +61,7 @@
         "name": "Right at Home Utah Valley",
         "address": "2230 N University Pkwy, STE 4A, Provo, UT 84604",
         "phone": "+1 (801) 373-1373",
-        "membership_level": "Sliver",
+        "membership_level": "Non-Profit",
         "url": "https://www.rightathome.net/provo"
       },
       {
@@ -93,7 +93,7 @@
         "name": "Champion Charter Bus",
         "address": "Online",
         "phone": "+1 (844) 693-9330",
-        "membership_level": "Gold",
+        "membership_level": "Non-Profit",
         "url": "https://www.championcharterbus.com/"
       }
     ]

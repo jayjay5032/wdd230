@@ -28,7 +28,7 @@
         grid-column: 2/3;
         grid-row: 5/6;
     }
-    .mid_only {display: block;}
+    #mid_only {display: block;}
     .discover div img {
         margin-left: auto;
         margin-right: auto;
@@ -37,5 +37,11 @@
     .discover div img:hover{box-shadow: 0 0 50px #333;}
     .discover, .join, .directory, .contact-main{
         display: block;
+    }
+    #herobtnb {
+        font-size: 1.5rem;
+    }
+    #herobtna {
+        grid-row: 5;
     }
 }

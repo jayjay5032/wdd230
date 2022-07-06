@@ -65,7 +65,8 @@ p {
   margin: 0;
 }
 
-.large_only, .mid_only{display: none;}
+#hide, #mid_only{display: none;}
+
 
 /*----------header----------*/
 header {
@@ -137,7 +138,7 @@ nav ul {
   margin: 0;
   position: fixed;
   right: 63px;
-  z-index: 1;
+  z-index: 3;
 }
 nav ul li a {
 	display: block;
@@ -204,11 +205,41 @@ footer > div {
 }
 
 /*----------Hero in Index---------*/
-picture.hero_pic {
-  display: block;
-  width: auto;
+#hero{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-row: 1;
+  overflow: hidden;
+  padding: 0px;
 }
-.mid_only {
+#hero h2 {
+  padding: 1rem;
+  background-color: white;
+  grid-column: 1/-1;
+  grid-row: 1;
+  height: 1.5rem;
+  z-index: 2;
+}
+#hero picture {
+  padding:0;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  grid-column: 1/-1;
+  grid-row: 1/7;
+}
+#hero picture img {
+  width: 100%;
+  height: 100%;
+}
+#herobtna {
+  grid-column: 5/10;
+  grid-row: 4;
+  z-index: 2;
+}
+
+#join {
   text-align: center;
 }
 .btn {
@@ -221,6 +252,22 @@ picture.hero_pic {
   border-radius: 5px;
   background-color: #3DBF33;
   color: white;
+}
+#herobtnb {
+  font-size: 1rem;
+}
+/*----------spotlight in Index---------*/
+#show, #mid_only {
+  height: fit-content;
+}
+#show {
+  display: block;
+}
+#show img, #mid_only img {
+  max-height: 5rem;
+}
+#show p, #mid_only p, #mid_only a, #show a , #show h3, #mid_only h3{
+  padding: .3rem;
 }
 
 /*--------------Form in Join--------------*/
@@ -381,11 +428,12 @@ section {
 .list section {
 	display: flex;
 	align-items: center;
+  text-align: left;
   height: inherit;
 }
 .grid section {
 	flex-direction: column;
-	text-align: center;
+	text-align: left;
 }
 .grid section > * {
 	margin: 0.1rem;
@@ -408,6 +456,15 @@ section {
 section h3, p, a {
   padding: 0;
   margin: 0rem;
+}
+.bronze {
+  border: 5px solid #9F8170;
+}
+.silver{
+  border: 5px solid rgb(129, 129, 129);
+}
+.gold {
+  border: 5px solid gold;
 }
 main div article section img {
 	height: 75px;
