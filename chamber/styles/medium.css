@@ -44,4 +44,7 @@
     #herobtna {
         grid-row: 5;
     }
+    #join {
+        display: block;
+    }
 }
