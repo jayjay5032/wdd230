@@ -59,9 +59,7 @@
         grid-column: 1/2;
         grid-row: 2/3;
     }
-    .discover div p {
-        padding: 20px 100px;
-    }
+   
     .contact{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -137,5 +135,4 @@
         grid-column: 5/13;
         grid-template-rows: repeat(5, 20%);
     }
-    
 }
