@@ -181,7 +181,7 @@ footer > a > img {
   max-width: 120px;
   padding: 0.3rem;
 }
-footer > div {
+footer div {
   background-color: transparent;
   padding: 0.3rem;
   margin: 0;
@@ -192,6 +192,9 @@ footer > div {
 }
 #footer_title {
   font-size: larger;
+}
+#white_line p {
+  font-size: small;
 }
 
 /*----------banner----------*/

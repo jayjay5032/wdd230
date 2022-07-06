@@ -104,6 +104,33 @@
     }
     footer {
         display: grid;
+        grid-template-columns: 1fr 1fr;    
+    }
+    footer:nth-child(1){
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+    footer a {
+        justify-self: right;
+    }
+    footer div {
+        grid-column: 2/3;
+        grid-row: 1;
+        justify-self: left;
+        text-align: left;
+        align-items: center;
+    }
+    #white_line{
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+        grid-column: 1/3;
+        grid-row: 2;
+        padding: 0 30%;
+    }
+    #white_line p {
+        margin: .5rem;
+        
     }
     #hero {
         grid-row: 1/3;
