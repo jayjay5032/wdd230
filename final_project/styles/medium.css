@@ -37,6 +37,12 @@
     #join {
         display: block;
     }
+    header {
+        grid-template-columns: 60px auto 140px 41px;
+    }
+    #social a img {
+        max-width: 40px;
+      }
 }
 @media only screen and (min-width: 742px) {
     #hero h2 {
