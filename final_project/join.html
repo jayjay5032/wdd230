@@ -14,12 +14,6 @@
         <link rel="icon" type="image/png" href="images/temple_logo.png" sizes="192x192">
     </head>
     <body id="content">
-        <div id="banner">
-            <p>🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m</p>
-            <div id="close">
-                <span>X</span>
-            </div>
-        </div>
         <header>
             <a href="index.html">
                 <img src="images/temple_logo.webp" alt="temple_logo">
@@ -41,8 +35,8 @@
                 <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
                 <ul id="primaryNav">
                     <li><a href="index.html" target="_self">Home</a></li>
-                    <li><a href="discover.html" target="_self">Temple</a></li>
-                    <li><a href="directory.html" target="_self">Service</a></li>
+                    <li><a href="discover.html" target="_self">Service</a></li>
+                    <li><a href="directory.html" target="_self">Temples</a></li>
                     <li><a href="join.html" target="_self">Reservation</a></li>
                     <li><a href="contact.html" target="_self">Contact</a></li>
                 </ul>
@@ -50,7 +44,7 @@
         </header>
         <main class="join">
             <div>
-                <h1>Join The Commerce Application</h1>
+                <h1>Make a Reservation</h1>
                 <form method="get" action="thanksjoin.html">
                     <fieldset>
                         <legend>Applicant Information</legend>
@@ -60,20 +54,34 @@
                         <label class="top">Phone*<input type="tel" name="phone" required></label>
                     </fieldset>
                     <fieldset>
-                        <legend>Applicant Busniess Information</legend>
-                        <label class="top">Business Name/Title*<input type="text" name="businessName" required></label>
-                        <label class="top">Position Title<input type="text" name="jobtitle" pattern="[A-Za-z- ]{7}"></label>
-                        <label class="top">Business Description<textarea name="businessDescription"></textarea></label>
+                        <legend>Reservation Details</legend>
+                        <label class="top">Start Date*<input type="date" name="startDate" required></label>
+                        <label class="top">End Date*<input type="date" name="endDate" required></label>
+                        <label class="top">Please Select the Location:
+                            <select name="subject">
+                                <option value="">Please Select &#9662;</option>
+                                <option value="Atlanta Georgia Temple">Atlanta Georgia Temple</option>
+                                <option value="Los Angeles California Temple">Los Angeles California Temple</option>
+                                <option value="Rexburg Idaho Temple">Rexburg Idaho Temple</option>
+                                <option value="Sacramento California Temple">Sacramento California Temple</option>
+                            </select>
+                        </label>
+                        <label class="top">Number of Guest Staying*<input type="number" name="guests" required></label>
                     </fieldset>
                     <fieldset>
-                        <legend>Membership Level</legend>
-                        <label class="sbs"><input type="radio" name="membership" value="NP Membership"> NP Membership</label>
-                        <label class="sbs"><input type="radio" name="membership" value="Bronze Membership"> Bronze Membership</label>
-                        <label class="sbs"><input type="radio" name="membership" value="Silver Membership"> Silver Membership</label>
-                        <label class="sbs"><input type="radio" name="membership" value="Gold Membership"> Gold Membership</label>
+                        <legend>Room Selection</legend>
+                        <label class="top">Number of 1 Single-bed Rooms Needed<input type="number" name="1srooms"></label>
+                        <label class="top">Number of 2 Single-bed Rooms Needed<input type="number" name="2srooms"></label>
+                        <label class="top">Number of 1 Couple-bed Rooms Needed<input type="number" name="1crooms"></label>
+                        <label class="top">Number of 2 Couple-bed Rooms Needed<input type="number" name="1crooms"></label>
                     </fieldset>
+                    <fieldset>
+                        <legend>Special Services Request</legend>
+                        <label class="top">Please Specify:<textarea name="businessDescription"></textarea></label>
+                    </fieldset>
+                    
                     <p>Last updated: <span id="lastmod"></span></p>
-                    <input type="submit" value="Join the Commerce" class="submitBtn">
+                    <input type="submit" value="Make a Reservation" class="submitBtn">
                 </form>
             </div>
             
@@ -86,7 +94,7 @@
                 <p id="footer_title">Temple Inn & Suite</p>
                 <p>4847 Montgomery Ln #300, Bethesda, MD 20814</p>
                 <p>+1 (123) 456-7890</p>
-                <p><a href="https://goo.gl/maps/3Ag2PanQReeVNFuG9" target="_blank">Location Map</a></p>
+                <p><a href="https://goo.gl/maps/yjJuP4DGNsCDuM8TA" target="_blank">Location Map</a></p>
                 <p><a href="contact.html">Contact Us</a></p>
             </div>
             <div id="white_line">

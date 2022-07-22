@@ -37,19 +37,13 @@ function displayMembers(busniess) {
     card.appendChild(url);
     card.setAttribute("id", `hide`);
 
-    if (count == 8) {
+    if (count == 4) {
         return
-    } else if (count <= 7) {
-        if (busniess.membership_level == "Gold") {
-          card.setAttribute("class", "gold");
+    } 
+    else if (count <= 3) {
           results[count] = cards.appendChild(card);
           count = count + 1;
-        } else if (busniess.membership_level == "Silver") {
-          card.setAttribute("class", "silver");
-          results[count] = cards.appendChild(card);
-          count = count + 1;
-          }
-      }; 
+    }; 
 }
 
 fetch(requestURL)

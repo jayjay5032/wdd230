@@ -4,6 +4,7 @@ const weatherIcon = document.querySelector('#weather-icon');
 const wind_speed = document.getElementById("wind");
 var wind_chill = document.getElementById("wind_chill");
 const captionDesc = document.querySelector('figcaption');
+const humidity = document.getElementById('humidity');
 const url = 'https://api.openweathermap.org/data/2.5/weather?q=Provo&units=imperial&appid=26e68319cfd447b4254c6a56af730573'
 
 function displayResults(weatherData) {
@@ -17,11 +18,11 @@ function displayResults(weatherData) {
     } else {
         wind_chill.textContent = "Wind Chill: N/A";
     }
-
     wind_speed.textContent = `Wind Speed: ${weatherData.wind.speed} m/s`;
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc;
+    humidity.textContent = `Humidity: ${weatherData.main.humidity}%`
 }
 
 
