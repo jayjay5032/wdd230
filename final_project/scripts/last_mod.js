@@ -1,2 +1,2 @@
-let LastModif = document.lastModified;
-document.getElementById("lastmod").textContent = LastModif;
+var LastModif = document.lastModified;
+document.getElementById("last_mod").innerHTML = LastModif.toString();

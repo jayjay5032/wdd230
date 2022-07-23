@@ -8,9 +8,9 @@
       "phone": "(1) 770-393-3698",
       "email": "email@thechurchofchrist.org",
       "url": "https://www.churchofjesuschrist.org/temples/details/atlanta-georgia-temple?lang=eng",
-      "services": 
+      "services":
         {
-          "one": "No clothing rental available", 
+          "one": "No clothing rental \n\n available", 
           "two": "No cafeteria available", 
           "three": "Patron housing available", 
           "four": "Distribution center nearby"
@@ -31,31 +31,11 @@
         },
       "milestone": 
         {
-          "one": 
-          {
-            "date": "2 April 1980",
-            "event": "Announced"
-          },
-          "two": 
-          {
-            "date": "7 March 1981",
-            "event": "Groundbreaking"
-          },
-          "three": 
-          {
-            "date": "1 June 1983",
-            "event": "Dedicated"
-          },
-          "four": 
-          {
-            "date": "14 November 1997",
-            "event": "Rededicated"
-          },
-          "five": 
-          {
-            "date": "1 May 2011",
-            "event": "Rededicated"
-          }
+          "one": "Announced: 2 April 1980",
+          "two": "Groundbreaking: 7 March 1981",
+          "three": "Dedicated: 1 June 1983",
+          "four": "Rededicated: 14 November 1997",
+          "five": "Rededicated: 1 May 2011"
         }
     },
     {
@@ -82,7 +62,7 @@
         "five": "Friday: 9:30AM - 2PM, 5:30 - 10PM",
         "six": "Saturday: 7:30AM - 5PM"
       },
-      "closure schedule": 
+      "closure_schedule": 
       {
         "one":"Monday, 11 July 2022 - Monday, 1 August 2022",
         "two":"Saturday, 1 October 2022",
@@ -97,21 +77,9 @@
       },
       "milestone": 
       {
-        "one": 
-        {
-          "date": "6 March 1937",
-          "event": "Announced"
-        },
-        "two": 
-        {
-          "date": "22 September 1951",
-          "event": "Groundbreaking"
-        },
-        "three": 
-        {
-          "date": "11 March 1956",
-          "event": "Dedicated"
-        }
+        "one": "Announced: 6 March 1937",
+        "two": "Groundbreaking: 22 September 1951",
+        "three": "Dedicated: 11 March 1956"
       }
     },      
     {
@@ -138,7 +106,7 @@
         "five": "Friday: 6AM - 7:30PM",
         "six": "Saturday: 6AM - 7:30PM"
       },
-      "closure schedule": 
+      "closure_schedule": 
       {
         "one": "Saturday, 23 July 2022",
         "two": "Saturday, 1 October 2022",
@@ -155,21 +123,9 @@
       },
       "milestone": 
       {
-        "one": 
-        {
-          "date": "12 December 2003",
-          "event": "Announced"
-        },
-        "two": 
-        {
-          "date": "30 July 2005",
-          "event": "Groundbreaking"
-        },
-        "three": 
-        {
-          "date": "10 February 2008",
-          "event": "Dedicated"
-        }
+        "one": "Announced: 12 December 2003",
+        "two": "Groundbreaking: 30 July 2005",
+        "three": "Dedicated: 10 February 2008"
       }
     },      
     {
@@ -196,7 +152,7 @@
         "five": "Friday: 8:30AM - 8PM",
         "six": "Saturday: 8:30AM - 8PM"
       },
-      "closure schedule": 
+      "closure_schedule": 
       {
         "one":"Tuesday, 2 August 2022 - Monday, 15 August 2022",
         "two":"Saturday, 1 October 2022",
@@ -209,21 +165,9 @@
       },
       "milestone": 
       {
-        "one": 
-        {
-          "date": "21 April 2001",
-          "event": "Announced"
-        },
-        "two": 
-        {
-          "date": "22 August 2004",
-          "event": "Groundbreaking"
-        },
-        "three": 
-        {
-          "date": "3 September 2006",
-          "event": "Dedicated"
-        }
+        "one": "Announced: 21 April 2001",
+        "two": "Groundbreaking: 22 August 2004",
+        "three": "Dedicated: 3 September 2006"
       }
     }
   ]
