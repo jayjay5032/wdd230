@@ -1,230 +1,230 @@
 {
-    "busniess": [
-      {
-        "imageurl": "https://assets.ldscdn.org/64/78/6478bfbb81105c30da60122ecf1bb7f13523f8fc/atlanta_temple_lds.jpeg",
-        "name": "Atlanta Georgia Temple",
-        "address": "6450 Barfield Rd NE, Sandy Springs, GA, United States 30328-4283",
-        "phone": "(1) 770-393-3698",
-        "email": "email@thechurchofchrist.org",
-        "url": "https://www.churchofjesuschrist.org/temples/details/atlanta-georgia-temple?lang=eng",
-        "services": 
+  "busniess": 
+  [
+    {
+      "imageurl": "images/atlanta_temple_lds.jpeg",
+      "name": "Atlanta Georgia Temple",
+      "address": "6450 Barfield Rd NE, Sandy Springs, GA, United States 30328",
+      "phone": "(1) 770-393-3698",
+      "email": "email@thechurchofchrist.org",
+      "url": "https://www.churchofjesuschrist.org/temples/details/atlanta-georgia-temple?lang=eng",
+      "services": 
         {
-          "1": "No clothing rental available", 
-          "2": "No cafeteria available", 
-          "3": "Patron housing available", 
-          "4": "Distribution center nearby"
+          "one": "No clothing rental available", 
+          "two": "No cafeteria available", 
+          "three": "Patron housing available", 
+          "four": "Distribution center nearby"
         },
-        "session_schedule":
+      "session_schedule":
         {
-          "0": "Sunday: Closed",
-          "1": "Monday: Closed",
-          "2": "Tuesday: 9:30AM - 2PM, 5:30 - 10PM",
-          "3": "Wednesday: 9:30AM - 2PM, 5:30 - 10PM",
-          "4": "Thursday: 9:30AM - 2PM, 5:30 - 10PM",
-          "5": "Friday: 9:30AM - 2PM, 5:30 - 10PM",
-          "6": "Saturday: 7:30AM - 5PM"
+          "zero": "Sunday: Closed",
+          "one": "Monday: Closed",
+          "two": "Tuesday: 9:30AM - 2PM, 5:30 - 10PM",
+          "three": "Wednesday: 9:30AM - 2PM, 5:30 - 10PM",
+          "four": "Thursday: 9:30AM - 2PM, 5:30 - 10PM",
+          "five": "Friday: 9:30AM - 2PM, 5:30 - 10PM",
+          "six": "Saturday: 7:30AM - 5PM"
         },
-        "closure schedule": 
+      "closure_schedule": 
         {
-          "1":"Monday, 26 September 2022 - Monday, 10 October 2022"
+          "one":"Monday, 26 September 2022 - Monday, 10 October 2022"
         },
-        "milestone": 
+      "milestone": 
         {
-          "1": 
+          "one": 
           {
             "date": "2 April 1980",
             "event": "Announced"
           },
-          "2": 
+          "two": 
           {
             "date": "7 March 1981",
             "event": "Groundbreaking"
           },
-          "3": 
+          "three": 
           {
             "date": "1 June 1983",
             "event": "Dedicated"
           },
-          "4": 
+          "four": 
           {
             "date": "14 November 1997",
             "event": "Rededicated"
           },
-          "5": 
+          "five": 
           {
             "date": "1 May 2011",
             "event": "Rededicated"
           }
         }
+    },
+    {
+      "imageurl": "images/los_angeles_temple_lds.jpg",
+      "name": "Los Angeles California Temple",
+      "address": "10777 Santa Monica Blvd, Los Angeles, CA 90025",
+      "phone": "(1) 310-474-5569",
+      "email": "email@thechurchofchrist.org",
+      "url": "https://www.churchofjesuschrist.org/temples/details/los-angeles-california-temple?lang=eng",
+      "services": 
+      {
+        "one": "Clothing rental available", 
+        "two": "No cafeteria available", 
+        "three": "Patron housing available", 
+        "four": "Distribution center nearby"
       },
+      "session_schedule":
       {
-        "imageurl": "https://alakazamit.com/wp-content/uploads/2020/11/site-logo.png",
-        "name": "Atlanta Georgia Temple",
-        "address": "6450 Barfield Rd NE, Sandy Springs, GA, United States 30328-4283",
-        "phone": "(1) 770-393-3698",
-        "email": "email@thechurchofchrist.org",
-        "url": "http://alakazamit.com",
-        "services": 
+        "zero": "Sunday: Closed",
+        "one": "Monday: Closed",
+        "two": "Tuesday: 9:30AM - 2PM, 5:30 - 10PM",
+        "three": "Wednesday: 9:30AM - 2PM, 5:30 - 10PM",
+        "four": "Thursday: 9:30AM - 2PM, 5:30 - 10PM",
+        "five": "Friday: 9:30AM - 2PM, 5:30 - 10PM",
+        "six": "Saturday: 7:30AM - 5PM"
+      },
+      "closure schedule": 
+      {
+        "one":"Monday, 11 July 2022 - Monday, 1 August 2022",
+        "two":"Saturday, 1 October 2022",
+        "three":"Tuesday, 22 November 2022 - Thursday, 24 November 2022",
+        "four":"Saturday, 24 December 2022",
+        "five":"Saturday, 31 December 2022",
+        "six":"Monday, 13 February 2023 - Monday, 27 February 2023",
+        "seven":"Saturday, 1 April 2023", 
+        "eight":"Monday, 21 August 2023 - Monday, 11 September 2023", 
+        "nine":"Saturday, 7 October 2023",
+        "ten":"Tuesday, 21 November 2023 - Thursday, 23 November 2023"
+      },
+      "milestone": 
+      {
+        "one": 
         {
-          "1": "No clothing rental available", 
-          "2": "No cafeteria available", 
-          "3": "Patron housing available", 
-          "4": "Distribution center nearby"
+          "date": "6 March 1937",
+          "event": "Announced"
         },
-        "session_schedule":
+        "two": 
         {
-          "0": "Sunday: Closed",
-          "1": "Monday: Closed",
-          "2": "Tuesday: 9:30AM - 2PM, 5:30 - 10PM",
-          "3": "Wednesday: 9:30AM - 2PM, 5:30 - 10PM",
-          "4": "Thursday: 9:30AM - 2PM, 5:30 - 10PM",
-          "5": "Friday: 9:30AM - 2PM, 5:30 - 10PM",
-          "6": "Saturday: 7:30AM - 5PM"
+          "date": "22 September 1951",
+          "event": "Groundbreaking"
         },
-        "closure schedule": 
+        "three": 
         {
-          "1":"Monday, 26 September 2022 - Monday, 10 October 2022"
-        },
-        "milestone": 
-        {
-          "1": 
-          {
-            "date": "2 April 1980",
-            "event": "Announced"
-          },
-          "2": 
-          {
-            "date": "7 March 1981",
-            "event": "Groundbreaking"
-          },
-          "3": 
-          {
-            "date": "1 June 1983",
-            "event": "Dedicated"
-          },
-          "4": 
-          {
-            "date": "14 November 1997",
-            "event": "Rededicated"
-          },
-          "5": 
-          {
-            "date": "1 May 2011",
-            "event": "Rededicated"
-          }
-        }
-      },      {
-        "imageurl": "https://alakazamit.com/wp-content/uploads/2020/11/site-logo.png",
-        "name": "Atlanta Georgia Temple",
-        "address": "6450 Barfield Rd NE, Sandy Springs, GA, United States 30328-4283",
-        "phone": "(1) 770-393-3698",
-        "email": "email@thechurchofchrist.org",
-        "url": "http://alakazamit.com",
-        "services": 
-        {
-          "1": "No clothing rental available", 
-          "2": "No cafeteria available", 
-          "3": "Patron housing available", 
-          "4": "Distribution center nearby"
-        },
-        "session_schedule":
-        {
-          "0": "Sunday: Closed",
-          "1": "Monday: Closed",
-          "2": "Tuesday: 9:30AM - 2PM, 5:30 - 10PM",
-          "3": "Wednesday: 9:30AM - 2PM, 5:30 - 10PM",
-          "4": "Thursday: 9:30AM - 2PM, 5:30 - 10PM",
-          "5": "Friday: 9:30AM - 2PM, 5:30 - 10PM",
-          "6": "Saturday: 7:30AM - 5PM"
-        },
-        "closure schedule": 
-        {
-          "1":"Monday, 26 September 2022 - Monday, 10 October 2022"
-        },
-        "milestone": 
-        {
-          "1": 
-          {
-            "date": "2 April 1980",
-            "event": "Announced"
-          },
-          "2": 
-          {
-            "date": "7 March 1981",
-            "event": "Groundbreaking"
-          },
-          "3": 
-          {
-            "date": "1 June 1983",
-            "event": "Dedicated"
-          },
-          "4": 
-          {
-            "date": "14 November 1997",
-            "event": "Rededicated"
-          },
-          "5": 
-          {
-            "date": "1 May 2011",
-            "event": "Rededicated"
-          }
-        }
-      },      {
-        "imageurl": "https://alakazamit.com/wp-content/uploads/2020/11/site-logo.png",
-        "name": "Atlanta Georgia Temple",
-        "address": "6450 Barfield Rd NE, Sandy Springs, GA, United States 30328-4283",
-        "phone": "(1) 770-393-3698",
-        "email": "email@thechurchofchrist.org",
-        "url": "http://alakazamit.com",
-        "services": 
-        {
-          "1": "No clothing rental available", 
-          "2": "No cafeteria available", 
-          "3": "Patron housing available", 
-          "4": "Distribution center nearby"
-        },
-        "session_schedule":
-        {
-          "0": "Sunday: Closed",
-          "1": "Monday: Closed",
-          "2": "Tuesday: 9:30AM - 2PM, 5:30 - 10PM",
-          "3": "Wednesday: 9:30AM - 2PM, 5:30 - 10PM",
-          "4": "Thursday: 9:30AM - 2PM, 5:30 - 10PM",
-          "5": "Friday: 9:30AM - 2PM, 5:30 - 10PM",
-          "6": "Saturday: 7:30AM - 5PM"
-        },
-        "closure schedule": 
-        {
-          "1":"Monday, 26 September 2022 - Monday, 10 October 2022"
-        },
-        "milestone": 
-        {
-          "1": 
-          {
-            "date": "2 April 1980",
-            "event": "Announced"
-          },
-          "2": 
-          {
-            "date": "7 March 1981",
-            "event": "Groundbreaking"
-          },
-          "3": 
-          {
-            "date": "1 June 1983",
-            "event": "Dedicated"
-          },
-          "4": 
-          {
-            "date": "14 November 1997",
-            "event": "Rededicated"
-          },
-          "5": 
-          {
-            "date": "1 May 2011",
-            "event": "Rededicated"
-          }
+          "date": "11 March 1956",
+          "event": "Dedicated"
         }
       }
-    ]
-  }
+    },      
+    {
+      "imageurl": "images/rexburg_idaho_temple.jpeg",
+      "name": "Rexburg Idaho Temple",
+      "address": "750 S 2nd St E, Rexburg, ID 83440",
+      "phone": "(1) 208-656-0880",
+      "email": "email@thechurchofchrist.org",
+      "url": "https://www.churchofjesuschrist.org/temples/details/rexburg-idaho-temple?lang=eng",
+      "services": 
+      {
+        "one": "Clothing rental available", 
+        "two": "No cafeteria available", 
+        "three": "No patron housing available", 
+        "four": "Distribution center nearby"
+      },
+      "session_schedule":
+      {
+        "zero": "Sunday: Closed",
+        "one": "Monday: Closed",
+        "two": "Tuesday: 6AM - 7:30PM",
+        "three": "Wednesday: 6AM - 7:30PM",
+        "four": "Thursday: 6AM - 7:30PM",
+        "five": "Friday: 6AM - 7:30PM",
+        "six": "Saturday: 6AM - 7:30PM"
+      },
+      "closure schedule": 
+      {
+        "one": "Saturday, 23 July 2022",
+        "two": "Saturday, 1 October 2022",
+        "three": "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
+        "four": "Saturday, 24 December 2022",
+        "five": "Saturday, 31 December 2022",
+        "six": "Saturday, 1 April 2023",
+        "seven":"Tuesday, 4 July 2023", 
+        "eight":"Saturday, 22 July 2023", 
+        "nine":"Monday, 28 August 2023 - Monday, 11 September 2023",
+        "ten":"Saturday, 7 October 2023",
+        "eleven":"Thursday, 23 November 2023 - Friday, 24 November 2023",
+        "twelve":"Tuesday, 26 December 2023"
+      },
+      "milestone": 
+      {
+        "one": 
+        {
+          "date": "12 December 2003",
+          "event": "Announced"
+        },
+        "two": 
+        {
+          "date": "30 July 2005",
+          "event": "Groundbreaking"
+        },
+        "three": 
+        {
+          "date": "10 February 2008",
+          "event": "Dedicated"
+        }
+      }
+    },      
+    {
+      "imageurl": "images/sacramento_temple_lds.jpeg",
+      "name": "Sacramento California Temple",
+      "address": "2110 California Cir, Rancho Cordova, CA 95742",
+      "phone": "(1) 916-357-5870",
+      "email": "email@thechurchofchrist.org",
+      "url": "https://www.churchofjesuschrist.org/temples/details/sacramento-california-temple?lang=eng",
+      "services": 
+      {
+        "one": "No clothing rental available", 
+        "two": "No cafeteria available", 
+        "three": "No patron housing available", 
+        "four": "Distribution center nearby"
+      },
+      "session_schedule":
+      {
+        "zero": "Sunday: Closed",
+        "one": "Monday: Closed",
+        "two": "Tuesday: 8:30AM - 8PM",
+        "three": "Wednesday: 8:30AM - 8PM",
+        "four": "Thursday: 8:30AM - 8PM",
+        "five": "Friday: 8:30AM - 8PM",
+        "six": "Saturday: 8:30AM - 8PM"
+      },
+      "closure schedule": 
+      {
+        "one":"Tuesday, 2 August 2022 - Monday, 15 August 2022",
+        "two":"Saturday, 1 October 2022",
+        "three":"Wednesday, 23 November 2022 (Limited Operations)",
+        "four":"Thursday, 24 November 2022",
+        "five":"Saturday, 24 December 2022",
+        "six":"Saturday, 31 December 2022 (Limited Operations)",
+        "seven":"Tuesday, 31 January 2023 - Monday, 13 February 2023",
+        "eight":"Tuesday, 1 August 2023 - Monday, 14 August 2023"
+      },
+      "milestone": 
+      {
+        "one": 
+        {
+          "date": "21 April 2001",
+          "event": "Announced"
+        },
+        "two": 
+        {
+          "date": "22 August 2004",
+          "event": "Groundbreaking"
+        },
+        "three": 
+        {
+          "date": "3 September 2006",
+          "event": "Dedicated"
+        }
+      }
+    }
+  ]
+}

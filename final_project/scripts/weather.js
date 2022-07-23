@@ -1,36 +1,4 @@
-let LastModif = document.lastModified;
-document.getElementById("lastmod").textContent = LastModif;
-
-const daynames = [
-	"Sunday",
-	"Monday",
-	"Tuesday",
-	"Wednesday",
-	"Thursday",
-	"Friday",
-	"Saturday"
-];
-const months = [
-	"January",
-	"February",
-	"March",
-	"April",
-	"May",
-	"June",
-	"July",
-	"August",
-	"September",
-	"October",
-	"November",
-	"December"
-];
 const d = Math.floor(Date.now() / 1000);
-//const monthName = months[d.getMonth()];
-//const year = d.getFullYear();
-//const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
-// using getElementById
-//document.getElementById("currentdate").textContent = fulldate;
-//
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const wind_speed = document.getElementById("wind");
@@ -60,18 +28,21 @@ function displayResults(weatherData) {
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc;
     humidity.textContent = `Humidity: ${weatherData.current.humidity}%`
-	if (d >= weatherData.alerts[0].start && d <= weatherData.alerts[0].end) {
-		document.getElementById("banner").style.display = "grid";
-		let alert_text = document.getElementById("alert");
-		alert_text.textContent = `${weatherData.alerts[0].sender_name}: ${weatherData.alerts[0].description}`;
-	};
 	day1temp.textContent = `Tomorrow: ${weatherData.daily[0].temp.day.toFixed(0)} °F`;
 	day2temp.textContent = `In 2 days: ${weatherData.daily[1].temp.day.toFixed(0)} °F`;
 	day3temp.textContent = `In 3 days: ${weatherData.daily[2].temp.day.toFixed(0)} °F`;
 	forecast_div.appendChild(day1temp);
 	forecast_div.appendChild(day2temp);
 	forecast_div.appendChild(day3temp);
-
+  try {
+    if (d >= weatherData.alerts[0].start && d <= weatherData.alerts[0].end) {
+      document.getElementById("banner").style.display = "grid";
+      let alert_text = document.getElementById("alert");
+      alert_text.textContent = `${weatherData.alerts[0].sender_name}: ${weatherData.alerts[0].description}`;
+    };
+  }
+  catch (e) {return;};
+  
 }
 
 async function apiFetch() {

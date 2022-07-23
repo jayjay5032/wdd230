@@ -42,7 +42,10 @@
     }
     #social a img {
         max-width: 40px;
-      }
+    }
+    #spotlights {
+        display: flex;
+    }
 }
 @media only screen and (min-width: 742px) {
     #hero h2 {
