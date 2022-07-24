@@ -26,25 +26,28 @@
         margin-right: auto;
         display: block;
     }
-    .discover div img:hover{box-shadow: 0 0 50px #333;}
+    
     .discover, .join, .directory, .contact-main{
         display: block;
     }
     #herobtna {
         grid-row: 5;
     }
-    #herobtna .btn {font-size: 1.2rem;}
-    #join {
-        display: block;
-    }
+    .btn {font-size: 1.1rem;}
     header {
         grid-template-columns: 60px auto 140px 41px;
     }
     #social a img {
         max-width: 40px;
     }
+    .child a {
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-width: 638px) {
     #spotlights {
-        display: flex;
+    display: flex;
+    place-items: center;
     }
 }
 @media only screen and (min-width: 742px) {
@@ -54,3 +57,4 @@
         background-color: transparent;
     }
 }
+@media only screen and (min-width: 875px) {.grid{ display: flex;}}

@@ -104,6 +104,16 @@
     #hero h2 {
         grid-column: 1/5;  
     }
+    .parent {
+        width: 600px;
+        height: 600px;
+    }
+    .page-header{
+        font-size: 3rem;
+    }
+    .discover h2{
+        font-size: 2rem;
+      }
 }
 @media only screen and (min-width: 1075px) {
     #hero h2{
