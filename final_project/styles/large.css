@@ -113,7 +113,16 @@
     }
     .discover h2{
         font-size: 2rem;
-      }
+    }
+    .service-description {
+        display: grid;
+    }
+    .service-description h3 {
+        grid-row: 1;
+    }
+    .service-description div{
+        
+    }
 }
 @media only screen and (min-width: 1075px) {
     #hero h2{

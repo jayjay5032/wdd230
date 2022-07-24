@@ -486,6 +486,10 @@ section {
   max-width: 1400px;
   margin: 0 auto;
 }
+
+.service-description img{
+  max-width: 688px;
+}
 /* Image zoom on hover + Overlay colour */
 .parent {
   width: 200px;
