@@ -317,6 +317,9 @@ footer div p a:hover {
 #forecast p {
   font-size: larger;
 }
+.weatherData {
+  text-align: center;
+}
 
 /*--------------Form in Join--------------*/
 form fieldset {
@@ -436,7 +439,7 @@ section {
 #weather figcaption {
   text-align: center;
 }
-#weather-icon {
+.weather-icon {
   min-height: 100px;
 }
 #weather h2 {
