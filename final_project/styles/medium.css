@@ -43,6 +43,31 @@
     .child a {
         font-size: 2rem;
     }
+    .reception {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        place-items: center;
+    }
+    .left p {
+        grid-row: 2;
+        grid-column: 1;
+        line-height: 2;
+    }
+    .left img {
+        grid-row: 2;
+        grid-column: 2;
+    }
+    .right h2 {
+        grid-column: 2;
+    }
+    .right p {
+        grid-row: 2;
+        grid-column: 2;    
+    }
+    .right img {
+        grid-row: 2;
+        grid-column: 1;    
+    }
 }
 @media only screen and (min-width: 638px) {
     #spotlights {
@@ -55,6 +80,9 @@
         grid-column: 1/7;
         font-size: 4rem;
         background-color: transparent;
+    }
+    .reception p {
+        font-size: 1.2rem;
     }
 }
 @media only screen and (min-width: 875px) {.grid{ display: flex;}}

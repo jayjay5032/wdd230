@@ -121,7 +121,15 @@
         grid-row: 1;
     }
     .service-description div{
-        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .service-description img{
+        grid-row: 2;
+        grid-column: 2;
+    }
+    .reception p, .service-description li, .discover p{
+        font-size: 1.5rem;
     }
 }
 @media only screen and (min-width: 1075px) {

@@ -52,18 +52,21 @@
                         <label class="top">Last Name*<input type="text" name="lname" required></label>
                         <label class="top">Email*<input type="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="YourEmail123@email.com"></label>
                         <label class="top">Phone*<input type="tel" name="phone" required></label>
+                        <label class="top">Are you a missionary?*</label>
+                        <label class="sbs"><input type="radio" name="reception" value="reception_yes" required> Yes</label>
+                        <label class="sbs"><input type="radio" name="reception" value="reception_no" required> No</label>
                     </fieldset>
                     <fieldset>
                         <legend>Reservation Details</legend>
                         <label class="top">Start Date*<input type="date" name="startDate" required></label>
                         <label class="top">End Date*<input type="date" name="endDate" required></label>
-                        <label class="top">Please Select the Location:
+                        <label class="top">Hotel to book:
                             <select name="subject">
-                                <option value="">Please Select &#9662;</option>
-                                <option value="Atlanta Georgia Temple">Atlanta Georgia Temple</option>
-                                <option value="Los Angeles California Temple">Los Angeles California Temple</option>
-                                <option value="Rexburg Idaho Temple">Rexburg Idaho Temple</option>
-                                <option value="Sacramento California Temple">Sacramento California Temple</option>
+                                <option value="">Please Select &emsp;&emsp; &emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp; &#9662;</option>
+                                <option value="Atlanta Georgia Temple">Atlanta Georgia Temple Inn</option>
+                                <option value="Los Angeles California Temple">Los Angeles California Temple Inn</option>
+                                <option value="Rexburg Idaho Temple">Rexburg Idaho Temple Inn</option>
+                                <option value="Sacramento California Temple">Sacramento California Temple Inn</option>
                             </select>
                         </label>
                         <label class="top">Number of Guest Staying*<input type="number" name="guests" required></label>
@@ -77,7 +80,10 @@
                     </fieldset>
                     <fieldset>
                         <legend>Special Services Request</legend>
-                        <label class="top">Please Specify:<textarea name="businessDescription"></textarea></label>
+                        <label class="top">Requesting a reception venue?*</label>
+                        <label class="sbs"><input type="radio" name="reception" value="reception_yes" required> Yes</label>
+                        <label class="sbs"><input type="radio" name="reception" value="reception_no" required> No</label>
+                        <label class="top">What else would you like us to know?<textarea name="businessDescription"></textarea></label>
                     </fieldset>
                     <input type="submit" value="Make a Reservation" class="submitBtn">
                 </form>

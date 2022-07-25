@@ -486,7 +486,9 @@ section {
   max-width: 1400px;
   margin: 0 auto;
 }
-
+.discover img {
+  width: 100%;
+}
 .service-description img{
   max-width: 688px;
 }
@@ -557,8 +559,6 @@ section {
   left: 0;
   background-color: #219dbc90;
 }
-
-/* Media Queries */
 
 /*----------Contact----------*/
 .contact {
