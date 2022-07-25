@@ -25,7 +25,7 @@ let card = document.createElement('section');
 let day1headline = document.createElement('h3');
 let day2headline = document.createElement('h3');
 let day3headline = document.createElement('h3');
-const url = 'https://api.openweathermap.org/data/2.5/onecall?lat=33.44&lon=-94.04&units=imperial&appid=26e68319cfd447b4254c6a56af730573'
+const url = 'https://api.openweathermap.org/data/2.5/onecall?lat=33.749&lon=-84.338&units=imperial&appid=26e68319cfd447b4254c6a56af730573'
 
 function displayResults(weatherData) {
   currentTemp.textContent = `${weatherData.current.temp.toFixed(0)} °F`;
